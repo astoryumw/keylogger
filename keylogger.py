@@ -86,9 +86,9 @@ def send_email(key):
     body = ' '.join(str(key)) # body is now a list object when it should be a string
     # print(body)
     # print(type(body))
-    sender_email = 'storya484@gmail.com'
-    sender_password = 'Python35'
-    reciever_email = 'storya484@gmail.com'
+    sender_email = 'email_account'
+    sender_password = 'password'
+    reciever_email = 'email_account'
 
     message = MIMEMultipart()
     message["From"] = sender_email
